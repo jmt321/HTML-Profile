@@ -1,109 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-    <!-- Meta information for the page -->
-    <meta name="author" content="Jacob Thacker">
-    <meta name="description" content="A profile of Dwyane Wade, NBA champion and Miami Heat legend.">
-    <meta name="keywords" content="Dwyane Wade, Miami Heat, NBA, basketball">
+<meta name="author" content="Jacob Thacker">
+<meta name="description" content="A profile of Dwyane Wade, NBA champion and Miami Heat legend.">
+<meta name="keywords" content="Dwyane Wade, Miami Heat, NBA, basketball">
 
-    <title>Dwyane Wade – Miami Heat Legend</title>
+<title>Dwyane Wade – Miami Heat Legend</title>
 
-    <!-- Basic styling -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
-        .gallery img {
-            max-width: 320px;
-            width: 100%;
-            height: auto;          /* preserves full image */
-            margin: 10px 10px 0 0;
-            border-radius: 8px;
-        }
-    </style>
+<style>
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Open Sans', sans-serif;
+line-height:1.6;
+margin:0;
+background:linear-gradient(to bottom,#f7f7f7,#ececec);
+color:#222;
+}
+
+header{
+background:linear-gradient(135deg,#98002e,#5c001b);
+color:white;
+text-align:center;
+padding:40px 20px;
+}
+
+h1,h2,h3{
+font-family:'Oswald', sans-serif;
+letter-spacing:0.5px;
+}
+
+h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+p{
+font-size:1rem;
+}
+
+nav{
+background-color:#111;
+text-align:center;
+padding:15px;
+position:sticky;
+top:0;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 18px;
+font-weight:700;
+transition:color 0.3s ease;
+}
+
+nav a:hover{
+color:#f9a01b;
+}
+
+main{
+max-width:1000px;
+margin:30px auto;
+padding:0 20px;
+}
+
+.content-box{
+background:white;
+margin-bottom:25px;
+padding:25px;
+border-left:6px solid #98002e;
+border-radius:12px;
+box-shadow:0 6px 14px rgba(0,0,0,0.12);
+}
+
+.highlight{
+color:#f9a01b;
+font-weight:700;
+}
+
+ol,ul{
+padding-left:25px;
+}
+
+li{
+margin-bottom:8px;
+}
+
+.gallery{
+text-align:center;
+}
+
+.gallery img{
+max-width:300px;
+width:100%;
+height:auto;
+margin:10px;
+border-radius:10px;
+border:3px solid #111;
+box-shadow:0 4px 10px rgba(0,0,0,0.18);
+transition:transform 0.3s ease;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:25px 20px;
+margin-top:30px;
+}
+
+address{
+font-style:normal;
+margin-bottom:10px;
+}
+
+</style>
 </head>
 
 <body>
 
-    <!-- Page Header -->
-    <header>
-        <h1>Dwyane Wade</h1>
-        <p>
-            <strong>Dwyane Wade</strong> is a former NBA superstar best known for his time with the
-            <em>Miami Heat</em>, where he became one of the greatest shooting guards in basketball history.
-            <span>(A Miami sports icon.)</span>
-        </p>
-    </header>
+<!-- Page Header -->
+<header>
+<h1>Dwyane Wade</h1>
 
-    <main>
+<p>
+<strong>Dwyane Wade</strong> is a former NBA superstar best known for his time with the
+<em>Miami Heat</em>, where he became one of the greatest shooting guards in basketball history.
+<span class="highlight">He remains one of Miami’s most iconic athletes.</span>
+</p>
 
-        <article>
+</header>
 
-            <section>
-                <h2>Early Life &amp; Background</h2>
-                <p>
-                    Born in Chicago, Illinois, Wade discovered basketball as a positive outlet during
-                    his youth. He later played college basketball at
-                    <a href="https://gomarquette.com/" target="_blank" rel="noopener noreferrer">
-                        Marquette University
-                    </a>,
-                    where his success led to NBA draft recognition.
-                </p>
-            </section>
+<nav>
 
-            <section>
-                <h2>NBA Career</h2>
-                <p>
-                    Wade was drafted 5th overall in the 2003 NBA Draft by the
-                    <a href="https://www.nba.com/heat" target="_blank" rel="noopener noreferrer">
-                        Miami Heat
-                    </a>.
-                    Over his career, he won three NBA championships and became known for his
-                    <strong>clutch performances</strong> and leadership.
-                </p>
-            </section>
+<a href="#early-life">Early Life</a>
+<a href="#career">NBA Career</a>
+<a href="#highlights">Highlights</a>
+<a href="#legacy">Legacy</a>
+<a href="#gallery">Gallery</a>
 
-            <section>
-                <h2>Career Highlights</h2>
-                <ol>
-                    <li>Won 3 NBA Championships (2006, 2012, 2013)</li>
-                    <li>NBA Finals MVP (2006)</li>
-                    <li>13-time NBA All-Star</li>
-                </ol>
-            </section>
+</nav>
 
-            <section>
-                <h3>Skills &amp; Legacy</h3>
-                <ul>
-                    <li>Elite scorer and finisher</li>
-                    <li>Strong defensive instincts</li>
-                    <li>Leadership on and off the court</li>
-                </ul>
-            </section>
+<main>
 
-            <section class="gallery">
-                <h3>Gallery</h3>
-                <img src="images/wade-action.jpeg" alt="Dwyane Wade playing for the Miami Heat">
-                <img src="images/wade-finals.jpeg" alt="Dwyane Wade during the 2006 NBA Finals">
-                <img src="images/wade-celebration.jpeg" alt="Dwyane Wade celebrating a championship">
-            </section>
+<article>
 
-        </article>
+<section id="early-life" class="content-box">
 
-    </main>
+<h2>Early Life &amp; Background</h2>
 
-    <footer>
-        <address>
-            Created by Jacob Thacker<br>
-            University of Miami
-        </address>
-        <p>&copy; 2026</p>
-    </footer>
+<p>
+Born in Chicago, Illinois, Wade discovered basketball as a positive outlet during his youth.
+He later played college basketball at
+<a href="https://gomarquette.com/" target="_blank">Marquette University</a>,
+where his standout performances brought him national attention.
+</p>
+
+</section>
+
+<section id="career" class="content-box">
+
+<h2>NBA Career</h2>
+
+<p>
+Wade was drafted 5th overall in the 2003 NBA Draft by the
+<a href="https://www.nba.com/heat" target="_blank">Miami Heat</a>.
+During his career, he won three NBA championships and became known for
+<strong>clutch performances</strong>, leadership, and explosive scoring ability.
+</p>
+
+</section>
+
+<section id="highlights" class="content-box">
+
+<h2>Career Highlights</h2>
+
+<ol>
+
+<li>Won 3 NBA Championships in 2006, 2012, and 2013</li>
+<li>Named NBA Finals MVP in 2006</li>
+<li>Selected to 13 NBA All-Star Games</li>
+
+</ol>
+
+</section>
+
+<section id="legacy" class="content-box">
+
+<h3>Skills &amp; Legacy</h3>
+
+<ul>
+
+<li>Elite scorer and creative finisher at the rim</li>
+<li>Strong defensive instincts and effort</li>
+<li>Leadership on and off the court</li>
+
+</ul>
+
+</section>
+
+<section id="gallery" class="content-box gallery">
+
+<h3>Gallery</h3>
+
+<img src="images/wade-action.jpeg" alt="Dwyane Wade playing for the Miami Heat">
+
+<img src="images/wade-finals.jpeg" alt="Dwyane Wade during the NBA Finals">
+
+<img src="images/wade-celebration.jpeg" alt="Dwyane Wade celebrating a championship">
+
+</section>
+
+</article>
+
+</main>
+
+<footer>
+
+<address>
+
+Created by Jacob Thacker<br>
+University of Miami
+
+</address>
+
+<p>&copy; 2026</p>
+
+<p>Images used for educational purposes only. All rights belong to their respective owners.</p>
+
+</footer>
 
 </body>
 </html>
